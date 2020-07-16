@@ -1,0 +1,8 @@
+import pyautogui
+
+script = "This is the worst team I have ever played with in my life When we finally get on the point, everyone dies I understand that every now and then a team won't click When it comes to you, I don't think I can sympathize You should've picked Mercy You should've picked any kind of support We ended up losing, and it's all your fault You should learn how this game works You should've been helping— If you like Mercy so much, why don't you just marry her? So you're the type that gets on mic and tries to lecture me You're the most useless person we have on our team I've never seen anybody rage quite as hard as you Maybe you should go back to playing Team Fortress 2 I'm not gonna be Mercy I'm not gonna be any kind of support We ended up losing, and you got all mad Your tears are what I live for You should've been Mercy I'm not gonna be any kind of support We ended up losing, and it's all your fault Your tears are what I live for Maybe I'll be Tracer I'm already Tracer What about Widowmaker? I'm already Widowmaker I'll be Bastion Nerf Bastion You're right. So, Winston I wanna be Winston I guess I'll be Genji I'm already Genji Then I'll be McCree I already chose McCree I have an idea What's your idea? You should be... I'm not gonna be Mercy You should've picked Mercy I'm not gonna be any kind of support We ended up losing, and it's all your fault Your tears are what I live for I'm not gonna be Mercy You should've picked any kind of support We ended up losing, and you got all mad You should learn how this game works"
+
+for x in script.split():
+	pyautogui.write(x)
+	pyautogui.press("enter")
+
